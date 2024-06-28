@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><Language code="fr" name="Français">
+  <StockControl>
+    <Product>
+      <Title Text="Contrôle du stock"/>
+      <Supplier Text="Fournisseur">
+        <None Text="(aucun)"/>
+        <Clear Text="Effacer"/>
+      </Supplier>
+      <ReorderPoint Text="Point de commande"/>
+      <PreferredQuantity Text="Quantité souhaitée"/>
+      <LowStockWarning Text="Avertissement de stock faible">
+        <WarningQuantity Text="Quantité d'avertissement de stock faible"/>
+      </LowStockWarning>
+      <Reset Text="Réinitialiser aux valeurs par défaut"/>
+      <Info Text="Définissez des règles de faible quantité de stock qui peuvent être utilisées comme point de réapprovisionnement en stock."/>
+    </Product>
+    <Notification>
+      <Message Text="Certains produits ont atteint leur point de réapprovisionnement.\nEnvisagez d'acheter les articles suivants : {0}.">
+        <Title Text="Les produits atteignent une faible quantité de stock"/>
+      </Message>
+    </Notification>
+    <Reports>
+      <Group Text="Contrôle du stock"/>
+      <ReorderProductList Text="Réorganiser la liste de produits">
+        <OrderQuantity Text="Quantité de commande."/>
+      </ReorderProductList>
+      <LowStockWarning Text="Avertissement de stock faible">
+        <QuantityOnHand Text="Qté. à portée de main"/>
+        <PreferredQuantity Text="Quantité préférée."/>
+        <WarningQuantity Text="Avertissement qté."/>
+        <ReorderPoint Text="Point de réapprovisionnement"/>
+      </LowStockWarning>
+    </Reports>
+  </StockControl>
+</Language>

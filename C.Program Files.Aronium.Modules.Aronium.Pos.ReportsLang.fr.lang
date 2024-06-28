@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><Language code="fr" name="Français">
+  <Reports Text="Rapports">
+    <Filter Text="Filtre">
+      <User Text="Utilisateur">
+        <All Text="Tous"/>
+      </User>
+      <Customer Text="Clients et fournisseurs">
+        <All Text="Tous"/>
+        <Search Text="Recherche...">
+          <NoResults Text="Aucun résultat"/>
+        </Search>
+      </Customer>
+      <Product Text="Produit">
+        <All Text="Tous"/>
+        <Search Text="Recherche...">
+          <NoResults Text="Aucun résultat"/>
+        </Search>
+      </Product>
+      <CashRegister Text="Caisse">
+        <All Text="Tous"/>
+      </CashRegister>
+      <ProductGroup Text="Groupe de produits">
+        <IncludeSubgroups Text="Inclure des sous-groupes"/>
+      </ProductGroup>
+      <Period>
+        <Tip Text="Cliquez pour modifier la période du rapport"/>
+      </Period>
+      <NotAvailable Text="Ne s'applique pas au rapport sélectionné"/>
+    </Filter>
+    <Report>
+      <Select Text="Sélectionnez le rapport">
+        <Title Text="Sélectionnez le rapport à afficher ou à imprimer"/>
+      </Select>
+      <Show Text="Rapport d'émission"/>
+      <NotFound Text="Le modèle de rapport est manquant."/>
+    </Report>
+    <Sales Text="Ventes">
+      <Products Text="Des produits"/>
+      <ProductGroups Text="Groupes de produits"/>
+      <PaymentTypes Text="Types de paiement"/>
+      <PaymentTypesUsers Text="Types de paiement par utilisateurs"/>
+      <PaymentTypesCustomers Text="Types de paiement par clients"/>
+      <TaxRates Text="Les taux d'imposition"/>
+      <Customers Text="Clients"/>
+      <Users Text="Utilisateurs"/>
+      <Refunds Text="Remboursements"/>
+      <InvoiceList Text="Liste des factures"/>
+      <Profit Text="Bénéfice et marge"/>
+      <Daily Text="Ventes quotidiennes"/>
+      <Hourly Text="Ventes horaires"/>
+      <HourlyByProductGroup Text="Ventes horaires par groupes de produits"/>
+      <OrderNumber Text="Tableau ou numéro de commande"/>
+      <Unpaid Text="Ventes impayées"/>
+      <StartingCash Text="Début des entrées de caisse"/>
+      <Discounts Text="Remises accordées"/>
+      <ItemDiscounts Text="Remises sur les articles"/>
+      <StockMovement Text="Mouvement de stock"/>
+      <VoidedItems Text="Articles annulés"/>
+    </Sales>
+    <Purchase Text="Achat">
+      <Suppliers Text="Fournisseurs"/>
+      <Products Text="Des produits"/>
+      <Unpaid Text="Achat impayé"/>
+      <Discounts Text="Remises d'achat"/>
+      <ItemDiscounts Text="Remises sur les articles achetés"/>
+      <PurchaseInvoiceList Text="Liste des factures d'achat"/>
+      <TaxRates Text="Les taux d'imposition"/>
+    </Purchase>
+    <LossAndDamage Text="Pertes et dommages">
+      <Products Text="Des produits"/>
+    </LossAndDamage>
+    <Favorites Text="Favoris">
+      <Add Text="Ajouter aux Favoris"/>
+      <Remove Text="Retirer des favoris"/>
+      <Clear Text="Effacer les favoris"/>
+    </Favorites>
+  </Reports>
+</Language>
